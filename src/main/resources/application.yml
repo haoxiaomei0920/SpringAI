@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+spring:
+  ai:
+    openai:
+      base-url: https://api.chatanywhere.tech
+      api-key: sk-ZNvbzGqJHsZuePF005lof6IjHIYwDp102jm8aYT2ALWwocgp
+      chat:
+        options:
+          model: gpt-4.1
+    deepseek:
+      base-url: https://api.chatanywhere.tech
+      api-key: sk-ZNvbzGqJHsZuePF005lof6IjHIYwDp102jm8aYT2ALWwocgp
+      chat:
+        options:
+          model: deepseek-chat
+
+
+    chat:
+      client:
+        enabled: false #禁用自动配置
