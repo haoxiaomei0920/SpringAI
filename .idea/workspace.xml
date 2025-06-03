@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75b0022-6266-4c8f-90f6-38ee2bd56a5d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SpringAiStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/AiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/ChatClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/ChatRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/ChatResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="e75b0022-6266-4c8f-90f6-38ee2bd56a5d" name="更改" comment="feat: ai MVP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/ChatClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -61,7 +56,7 @@
     "Maven.springAl [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "6cd678aa",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/sodamay/Desktop/code/springAl/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "模块",
@@ -140,7 +135,31 @@
       <option name="presentableId" value="Default" />
       <updated>1748707777629</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: ai MVP">
+      <option name="closed" value="true" />
+      <created>1748965348404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748965348404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ai MVP" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: ai MVP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -154,6 +173,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/ai/config/AiConfig.java</url>
           <line>16</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
