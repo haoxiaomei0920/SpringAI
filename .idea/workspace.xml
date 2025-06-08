@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e75b0022-6266-4c8f-90f6-38ee2bd56a5d" name="更改" comment="feat: 接口版本完善">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/config/AiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/AiConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/config/ChatClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/config/ChatClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/AiSimpleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/ChatRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ai/controller/ChatRequest.java" afterDir="false" />
+    <list default="true" id="e75b0022-6266-4c8f-90f6-38ee2bd56a5d" name="更改" comment="feat: Spring AI工程1.0">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "haoxiaomei0920"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/haoxiaomei0920/SpringAI.git",
+    "accountId": "277d64e0-81a2-445e-9905-0c4371673546"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -44,29 +50,31 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2xrsy6i7UAw5qkzxcWnGIhTbDoK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.springAl [clean,install,-U].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.springAl [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sodamay/Desktop/code/springAl/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;应用程序.SpringAI.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.SpringAiStarter.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.SpringbootDemoApplication.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.springAl [clean,install,-U].executor": "Run",
+    "Maven.springAl [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/sodamay/Desktop/code/springAl/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "应用程序.SpringAI.executor": "Run",
+    "应用程序.SpringAiStarter.executor": "Debug",
+    "应用程序.SpringbootDemoApplication.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -134,7 +142,20 @@
       <option name="presentableId" value="Default" />
       <updated>1748707777629</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: Spring AI工程1.0">
+      <option name="closed" value="true" />
+      <created>1749356887161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749356887161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Spring AI工程1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Spring AI工程1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
