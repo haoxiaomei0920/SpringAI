@@ -2,16 +2,18 @@ package org.example.ai.controller;
 
 public class ChatRequest {
 
-    private String message;
+    private String messages;
     private String model; // "openai" or "deepseek"
 
     // getters and setters
-    public String getMessage() {
-        return message;
+
+
+    public String getMessages() {
+        return messages;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMessages(String messages) {
+        this.messages = messages;
     }
 
     public String getModel() {
